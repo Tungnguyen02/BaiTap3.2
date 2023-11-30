@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".tableLayout">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#DFCD72"
+            android:gravity="center"
+            android:text="Chhương trình chỉ sô BMI"
+            android:textSize="20sp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/txtTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập Tên"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/txtChieuCao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiều Cao"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtChieuCao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text=" " />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/txtCanNang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cân Nặng"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtCanNang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text=" " />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnBMI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:gravity="center"
+
+            android:text="Button" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/txtBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI = "
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text=" " />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/txtChuanDoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ChuanDoan"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtChuanDoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text=" " />
+
+    </TableRow>
+</TableLayout>
+
+
+
+
+
+
